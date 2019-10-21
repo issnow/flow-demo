@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div class="main-header">
+    这是页面头部区域
+  </div>
 </template>
 
 <script>

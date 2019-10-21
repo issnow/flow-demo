@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div class="my-approval">
+    成功
+  </div>
 </template>
 
 <script>

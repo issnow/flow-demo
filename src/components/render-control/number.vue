@@ -1,13 +1,19 @@
 <template>
-  <div></div>
+  <el-form-item :label="control.caption">
+    <el-input type="number" v-model="value"></el-input>
+  </el-form-item>
 </template>
 
 <script>
 export default {
   components: {},
-  props: {},
+  props: {
+    control: {}
+  },
   data() {
-    return {};
+    return {
+      value: ""
+    };
   },
   computed: {},
   watch: {},
